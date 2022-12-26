@@ -113,6 +113,7 @@ function App() {
 
     // Setting our socket's created id to our id
     socket.on("myId", (id) => {
+      console.log(`The my id is called and has the id : ${id}`);
       setMyId(id)
     })
 

@@ -106,7 +106,7 @@ function App() {
   useEffect(() => {
 
     // enabling our video stream perissions
-    navigator.mediaDevices.getUserMedia({ video: true, audio: true }).then((stream) => {
+    navigator.mediaDevices?.getUserMedia({ video: true, audio: true }).then((stream) => {
       setStream(stream)
       myVideo.current.srcObject = stream
     })

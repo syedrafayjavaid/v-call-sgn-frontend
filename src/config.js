@@ -1,7 +1,7 @@
-let env = 'local'
+let env = 'prod'
 let config = {
     prod: {
-        base_url: 'http://210.56.27.69:4000',
+        base_url: 'http://18.182.4.201:4000',
     },
     local: {
         base_url: 'http://localhost:4000',
